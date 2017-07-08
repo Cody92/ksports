@@ -1,0 +1,71 @@
+#head-menu
+{
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(72,0,0)), to(rgb(149,0,0)));  
+  height: 50px; 
+}
+
+#logo
+{
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+
+#hm-list
+{
+    padding-top: 15px;
+    text-align: center;
+}
+
+#hm-list a>div
+{  
+  display: inline;
+  padding: 10px;    
+}
+
+#hm-list>a div:hover
+{
+  background-color: brown;
+  color: white;
+}
+
+#hm-list>a
+{
+    color: wheat;
+    font-size: 1.2em;
+    text-decoration: none;    
+}
+
+#footer {
+ position : relative; 
+ background-color : rgb(64,64,64); 
+ opacity: 0.9;
+ height : 200px;
+ top : 60px;
+ width: 100%;   
+}
+
+#copyrights {
+  color : white;
+  font-size : 1.2em;
+  font-family : sans-serif;
+  font-weight : bold;
+  position : absolute;
+  bottom : 5px;
+  text-align :center;
+  width : 300px;
+  left : 40%;
+  right : 50%;
+}
+
+    #copyrights > span {
+      color : gray;
+    }
+
+#follow{
+    margin-top : 10px;
+    color : white;
+    font-family : 'Comic Sans MS';
+    font-size : 1.2em;
+}
+
