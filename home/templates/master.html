@@ -20,7 +20,18 @@
                     $("#body-header").css({ "opacity": 1 });
                 }
 
-                
+                if ($(window).width() > 700) {
+                    if (sc < 100) {
+                        $(".sec2-1").hide(600);
+                    }
+
+                    else if (sc > 100) {
+                        $(".sec2-1").show(600);
+                    }
+                }
+                else {
+                    $(".sec2-1").show(500);
+                }
             });
         });
     </script>
