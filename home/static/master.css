@@ -1,7 +1,14 @@
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+
 #head-menu
 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(72,0,0)), to(rgb(149,0,0)));  
   height: 50px; 
+  width: auto;
 }
 
 #logo
