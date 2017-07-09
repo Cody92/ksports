@@ -25,7 +25,7 @@ SECRET_KEY = '+jk7@a^(^#8fubal_xx(idi8kl4ri^!!nuesa#_aklh7pf*)m2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ksports.herokuapp.com']
 
 
 # Application definition
