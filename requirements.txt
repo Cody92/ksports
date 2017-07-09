@@ -1,1 +1,1 @@
-pip install django
+Django==1.4.1
