@@ -1,6 +1,5 @@
-html, body {
-  width: auto !important;
-  overflow-x: hidden !important;
+body {
+  overflow-x: hidden;  
 }
 
 
@@ -60,9 +59,7 @@ html, body {
   position : absolute;
   bottom : 5px;
   text-align :center;
-  width : 300px;
-  left : 40%;
-  right : 50%;
+  width : 100%;  
 }
 
     #copyrights > span {
