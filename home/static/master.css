@@ -1,10 +1,7 @@
-html{
-width: 100%;
-}
-
-body {
-  overflow-x: hidden !important;  
+body {  
+  width: auto;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 
