@@ -46,8 +46,10 @@ body {
  position : relative; 
  background-color : rgb(64,64,64); 
  opacity: 0.9;
+ float: left;
  height : 200px;
  top : 60px;
+ bottom: 0;
  width: 100%;   
 }
 
@@ -75,3 +77,6 @@ body {
     font-size : 1.2em;
 }
 
+#div-body{
+  height: auto;
+}
